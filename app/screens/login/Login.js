@@ -26,7 +26,7 @@ const Login = () => {
 
   useEffect(() => {
     if (session) {
-      JSHmac('message', JJMSECKEY, CONSTANTS.HmacAlgorithms.HmacSHA256)
+      JSHmac(password, JJMSECKEY, CONSTANTS.HmacAlgorithms.HmacSHA256)
         .then(hash =>
           JSHmac(
             hash,
@@ -52,7 +52,7 @@ const Login = () => {
       credentials: 'same-origin',
       mode: 'same-origin',
       body: JSON.stringify({
-        session_id: session.data.id,
+        session_id: session?.data?.id,
         captchaText: captcha,
         email: email,
         password: encryptPass,
