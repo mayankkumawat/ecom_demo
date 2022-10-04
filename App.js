@@ -7,10 +7,10 @@
  */
 
 import React from 'react';
-import {Offers} from './app/screens';
+import {Login} from './app/screens';
 
 const App = () => {
-  return <Offers />;
+  return <Login />;
 };
 
 export default App;

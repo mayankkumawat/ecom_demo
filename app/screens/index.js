@@ -1,4 +1,3 @@
-import ProductList from './productList/ProductList';
-import Offers from './offers/Offers';
+import Login from './login/Login';
 
-export {ProductList, Offers};
+export {Login};

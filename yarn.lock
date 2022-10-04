@@ -5547,10 +5547,20 @@ react-native-codegen@^0.70.5:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-crypto-js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-crypto-js/-/react-native-crypto-js-1.0.0.tgz#e677e022e147f41b35614416c92d655f87e2450a"
+  integrity sha512-FNbLuG/HAdapQoybeZSoes1PWdOj0w242gb+e1R0hicf3Gyj/Mf8M9NaED2AnXVOX01b2FXomwUiw1xP1K+8sA==
+
 react-native-gradle-plugin@^0.70.3:
   version "0.70.3"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz#cbcf0619cbfbddaa9128701aa2d7b4145f9c4fc8"
   integrity sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==
+
+react-native-hash@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-hash/-/react-native-hash-3.0.3.tgz#fd53642a11e01cc069f49575760d4ed9cf4abddd"
+  integrity sha512-ACHe793sUabwPrKNurEBBRJyP/xp4Ff4OfuEceFbVR8ny/PIMZCjlVVMhc6xHO8n3KDMUK54shv57HvqwduanQ==
 
 react-native-responsive-dimensions@^3.1.1:
   version "3.1.1"
